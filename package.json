@@ -1,0 +1,51 @@
+{
+  "name": "black-rose",
+  "displayName": "Black rose",
+  "description": "dark rose theme by dananjaya",
+  "version": "0.3.0",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dananjaya6005/Black_rose-theme.git"
+  },
+  "publisher": "dananjaya",
+  "keywords": [
+    "rose black",
+    "black rose theme",
+    "dana",
+    "dananjaya theme",
+    "girls theme",
+    "beautiful theme",
+    "beautiful rose theme",
+    "black rose"
+  ],
+  "screenshots": [
+    {
+      "description": "Screenshot 1",
+      "path": "./screenshots/screenshot3.png"
+    },
+    {
+      "description": "Screenshot 2",
+      "path": "./screenshots/screenshot2.png"
+    },
+    {
+      "description": "Screenshot 2",
+      "path": "./screenshots/screenshot1.png"
+    }
+  ],
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Black-Rose",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Black-Rose-color-theme.json"
+      }
+    ]
+  }
+}
